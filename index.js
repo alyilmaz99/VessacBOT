@@ -61,36 +61,4 @@ client.on('message', (message) => {
   }
 });
 
-/*
-client.on('interactionCreate', async interaction => {
-  if (!interaction.isCommand()) return;
-
-  const { commandName } = interaction;
-  
-    if (commandName === 'ping') {
-      await interaction.reply('Pong!');
-    } else if (commandName === 'server') {
-      await interaction.reply(`Server name: ${interaction.guild.name}\nTotal members: ${interaction.guild.memberCount}`);
-    } else if (commandName === 'user') {
-      await interaction.reply(`Your tag: ${interaction.user.tag}\nYour id: ${interaction.user.id}`);
-    }
-  });
-  */
-/*
- void UpdatePresence()
-{
-    DiscordRichPresence discordPresence;
-    memset(&discordPresence, 0, sizeof(discordPresence));
-    discordPresence.state = "Yalnız Başına";
-    discordPresence.details = "Aşkı Arıyor";
-    discordPresence.startTimestamp = 1507665886;
-    discordPresence.endTimestamp = 1507665886;
-    discordPresence.largeImageText = "SAD";
-    discordPresence.smallImageText = "Rogue - Level 100";
-    discordPresence.partyId = "ae488379-351d-4a4f-ad32-2b9b01c91657";
-    discordPresence.partySize = 1;
-    discordPresence.partyMax = 2;
-    discordPresence.joinSecret = "MTI4NzM0OjFpMmhuZToxMjMxMjM= ";
-    Discord_UpdatePresence(&discordPresence);
-}*/
 client.login('MTAwODg4MDkwMDI0ODk4MTU4Ng.GHNL5h.A2AAcj0lnQNui7nEg1Gi-Nqy6i3fH0jES0U96s');
