@@ -60,5 +60,26 @@ client.on('message', (message) => {
     })
   }
 });
+client.on('message', (message) => {
+  if (message.content === 'Sa') {
+    message.reply({
+      content: "As",
+    })
+  }
+});
+client.on('message', (message) => {
+  if (message.content === 'Ali') {
+    message.reply({
+      content: "Buralardadır",
+    })
+  }
+});
+client.on('message', (message) => {
+  if (message.content === 'Patron') {
+    message.reply({
+      content: "Efendim",
+    })
+  }
+});
 
 client.login('MTAwODg4MDkwMDI0ODk4MTU4Ng.GHNL5h.A2AAcj0lnQNui7nEg1Gi-Nqy6i3fH0jES0U96s');
