@@ -4,6 +4,7 @@ const port = 3000;
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const { clientId, guildId, token } = require('./config.json');
+const VessacCards = require("./list.js")
 
 //--------------------------------------------------------//
 
@@ -78,6 +79,16 @@ client.on('message', (message) => {
   if (message.content === 'Patron') {
     message.reply({
       content: "Efendim",
+    })
+  }
+});
+client.on('messageCreate', (message) => {
+  var degisken = Math.floor((Math.random() * VessacCards.VessacCards().length));
+  var list = VessacCards.VessacCards();
+  if (message.content === '!gimmecard') {
+    message.reply({
+
+      content: list[degisken],
     })
   }
 });

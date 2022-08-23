@@ -1,0 +1,36 @@
+var VessacCards = ["https://drive.google.com/file/d/1VfvcOAZV8gDMtGzZjOo97SHfcWBKDv03/view",
+  "https://drive.google.com/file/d/1LcsaO_gaZrw1evLcmMwEPsHDGzOEoY71/view",
+  "https://drive.google.com/file/d/1boZTM6a5nvx_HDT8JKn505QhnU5UZCMB/view",
+  "https://drive.google.com/file/d/1SwvXNZwxtz3ml8DnG5_3ZAULYjuUbhpT/view",
+  "https://drive.google.com/file/d/1NaIVIL-S52SPh8RdFkOUNAi7MffmzEKn/view",
+  "https://drive.google.com/file/d/1WVMMLr857zkGaacB3j9ZJ5kTuoGGRVBQ/view",
+  "https://drive.google.com/file/d/1GKK0B9C9Y_A3zx_De3j4P6Qnh5EGuMw8/view",
+  "https://drive.google.com/file/d/1GKK0B9C9Y_A3zx_De3j4P6Qnh5EGuMw8/view",
+  "https://drive.google.com/file/d/12pye8L2zZBtB0CqDxiAZBd4hXEQWAGGU/view",
+  "https://drive.google.com/file/d/1HB1OmUy6DNKofAPNgJY-nOosYoAsTRcN/view",
+  "https://drive.google.com/file/d/1S_xWsizAvbCaHjIoVpFQ8Gm5F_zYBqbc/view",
+  "https://drive.google.com/file/d/14sxAXrzn-rOx7aqPZ_hEqRglpHvIculi/view",
+  "https://drive.google.com/file/d/1VcNxS5GSqQ-coQFRkBKpmPiWRMp-str7/view",
+  "https://drive.google.com/file/d/1Bb6CL64ttSm86tksf1boCvRGEW9csM5T/view",
+  "https://drive.google.com/file/d/1bibZsrSDPtmsEHE28iBXpkjrsttLthVo/view",
+  "https://drive.google.com/file/d/1LOuifSY3OuLqEZu0aZYu1u-IrLFHrij9/view",
+  "https://drive.google.com/file/d/1lQCkUmFDQUKSuBBTBqXXouFTDnCDy345/view",
+  "https://drive.google.com/file/d/1cwte6aOWKGaXl6PVxzb62CxGUAgRtCIF/view",
+  "https://drive.google.com/file/d/1KmL-vWc55uABeL6hpCDY7wNkH2w_W32D/view",
+  "https://drive.google.com/file/d/1JUMsZVNFu4_pDL6KH4eBxpi0LkmVmPl3/view",
+  "https://drive.google.com/file/d/1mzWqvJekxDHQB9pCMM9i1pN2wj46l1rL/view",
+  "https://drive.google.com/file/d/1ouGfmBQTT3lvvlOCK6zTitbbfCZTo8_w/view",
+  "https://drive.google.com/file/d/1aRiiHgyiho2sETEyr3doMbAM4J8ss7x-/view",
+  "https://drive.google.com/file/d/1bKn8aKo_JxJq3-HsVJc5dH6wUWJOh2YA/view",
+  "https://drive.google.com/file/d/1Th7zQmZ0nwwf7ZgdGfWlAxppLTSrN_0D/view",
+  "https://drive.google.com/file/d/1m8bZQGS3Nfc7nIm91zeajKQ3HZW2Y8bX/view",
+  "https://drive.google.com/file/d/1oQtUFcoAoUS9uuOVBwH1PtQE_ov3p1yE/view",
+  "https://drive.google.com/file/d/1fSzKyGqsgnk9AkwiJxUZAvtxxeksMG9O/view",
+  "https://drive.google.com/file/d/1abKchMz4I7aeQr4yrYO6ik3fp71lZ655/view",
+];
+
+module.exports = {
+  VessacCards: () => {
+    return VessacCards;
+  },
+};
